@@ -52,7 +52,7 @@ export const ProductList = (props) => {
   const createProducts = () => {
     const productList = [];
 
-    for (let i = 0; i < products.length; i++) {
+    for (let i = 0; i < 3; i++) {
       console.log(products?.[i].title);
       productList.push(
         <Card.Grid style={gridStyle}>
